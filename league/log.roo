@@ -1,0 +1,25 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-15 15:46:17
+project --topLevelPackage com.sibers.leage --projectName league --java 6
+persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+entity --class ~.domain.Player --testAutomatically
+field string --fieldName firstName --notNull --sizeMin 1 --sizeMax 50
+field string --fieldName lastName --notNull --sizeMin 1 --sizeMax 50
+field number --type int --fieldName speed --min 1 --max 10
+field number --type int --fieldName weight --min 1
+field number --type int --fieldName height --min 1
+field number --type int --fieldName kickingPower --min 1 --max 10
+field number --type int --fieldName kickingAccuracy --min 1 --max 10
+entity --class ~.domain.Team --testAutomatically
+field string --fieldName name --notNull
+field string --fieldName slogan
+// [failed] entity --class ~.domain.Player
+field reference --fieldName team --type ~.domain.Team
+web mvc setup
+web mvc all --package ~.web
+logging setup --level DEBUG
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-15 16:55:16
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-21 15:51:14
+web mvc all --package ~.web
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-21 17:26:47
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-21 17:27:53
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-21 20:36:32
