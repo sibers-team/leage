@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_sibers_leage_domain_Team" items="${teams}" z="UQ0mTPB5ybqPqArEjPHSiLW98Ao=">
+        <table:table data="${teams}" id="l_com_sibers_leage_domain_Team" path="/teams" z="TwbCWqMfpJeJa9oEfvsUsmdvEQ8=">
+            <table:column id="c_com_sibers_leage_domain_Team_name" property="name" z="nc1anNnjjirN1Geauh+6+WQKXkk="/>
+            <table:column id="c_com_sibers_leage_domain_Team_slogan" property="slogan" z="Heh0MeUwn4dILh1WyazuDq9qMXE="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_sibers_leage_domain_Player" object="${player}" path="/players" z="qdF4dn9S03vegV0gnU3jgd6gwJg=">
+        <field:display field="firstName" id="s_com_sibers_leage_domain_Player_firstName" object="${player}" z="m2EB/J4mybleddfseuLcCaRHxeM="/>
+        <field:display field="lastName" id="s_com_sibers_leage_domain_Player_lastName" object="${player}" z="MH7mh2gQ3i+RvFTXD3dfIDtRgog="/>
+        <field:display field="speed" id="s_com_sibers_leage_domain_Player_speed" object="${player}" z="e2l4RmmrxqauB5Mc5xuq4vVr6X0="/>
+        <field:display field="weight" id="s_com_sibers_leage_domain_Player_weight" object="${player}" z="45ZhfUL7N7OqvzG21SqtDQ8kguk="/>
+        <field:display field="height" id="s_com_sibers_leage_domain_Player_height" object="${player}" z="IWPySwnD87aP2GouBOkwwVb/he8="/>
+        <field:display field="kickingPower" id="s_com_sibers_leage_domain_Player_kickingPower" object="${player}" z="rR2YyTfzLmGaKOU8eYvIbUaZ3Do="/>
+        <field:display field="kickingAccuracy" id="s_com_sibers_leage_domain_Player_kickingAccuracy" object="${player}" z="WVVQh1LYwnDOCzIFDIYQcCOmjco="/>
+        <field:display field="team" id="s_com_sibers_leage_domain_Player_team" object="${player}" z="u7NOY8nZ4lowTuSg67t6smhqkn8="/>
+    </page:show>
+</div>
